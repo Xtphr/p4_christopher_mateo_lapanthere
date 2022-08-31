@@ -9,6 +9,10 @@
 blockquote,figcaption{
     color: black;
 }
+.larger-txt{
+    font-size: larger;
+    font-weight: bold;
+}
 
 body {
     margin: 0;
