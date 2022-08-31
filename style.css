@@ -1,3 +1,12 @@
+.footer-list{
+    list-style: none;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+.footer-title{
+    padding-left: 40px;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -651,7 +660,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #0F0F0F!important;
 }
 
 .container {
@@ -780,15 +789,15 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #c27956;
-    color: #FFFFFF!important;
+    background: #F3976C;
+    color: #424242!important;
     font-size: 24px;
     margin-top: 30px;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #F3976C!important;
-    color: #424242!important;
+    background: #c27956!important;
+    color: #FFFFFF!important;
 }
 
 .ltc-white {
