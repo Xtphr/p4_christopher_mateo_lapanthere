@@ -6,6 +6,9 @@
 .footer-title{
     padding-left: 40px;
 }
+blockquote,figcaption{
+    color: black;
+}
 
 body {
     margin: 0;
