@@ -720,7 +720,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 h2 {
@@ -1045,6 +1045,24 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    .icon-md{
+        padding-top: 15px;
+    }
+    .social{
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+    }
+    #footer-responsive{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #footer-responsive ul,
+    .footer-title{
+        padding-left: 0!important;
     }
 }
 
