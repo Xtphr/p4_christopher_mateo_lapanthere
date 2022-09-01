@@ -5,6 +5,7 @@
 }
 .footer-title{
     padding-left: 40px;
+    text-decoration: underline;
 }
 blockquote,figcaption{
     color: black;
@@ -693,7 +694,7 @@ a {
 }
 
 p {
-    font-size: 14 px;
+    font-size: medium;
 }
 
 .tight-width-whitespace {
@@ -892,8 +893,8 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: 0;
+        padding-right: 0;
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -903,8 +904,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
