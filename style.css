@@ -1049,6 +1049,8 @@ h4 {
     .icon-md{
         padding-top: 15px;
     }
+
+    /*Ajout Perso Responsive, par Christopher MATEO */
     .social{
         display: flex;
         justify-content: space-around;
@@ -1063,6 +1065,10 @@ h4 {
     #footer-responsive ul,
     .footer-title{
         padding-left: 0!important;
+    }
+    .footer-list{
+        line-height: 2em;
+        font-size: larger;
     }
 }
 
